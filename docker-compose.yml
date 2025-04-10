@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  xss_php:
+    build:
+      context: ./xss_php
+    ports:
+      - "8085:80"
+    container_name: xss_php
+
